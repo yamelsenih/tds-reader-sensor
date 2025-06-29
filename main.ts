@@ -69,5 +69,5 @@ basic.forever(function () {
         basic.pause(2000)
     }
     I2C_LCD1602.clear()
-    basic.pause(200)
+    basic.pause(5000)
 })
