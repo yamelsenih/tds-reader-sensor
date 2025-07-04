@@ -74,7 +74,7 @@ basic.forever(function () {
     bluetooth.uartWriteString("" + TDS)
     // 4. Limpieza del LCD y pausa para el siguiente ciclo
     I2C_LCD1602.clear()
-    I2C_LCD1602.ShowString("CARGANDO", 0, 0)
+    I2C_LCD1602.ShowString("LEYENDO", 0, 0)
     basic.pause(100)
     I2C_LCD1602.ShowString(".", 8, 0)
     basic.pause(100)
